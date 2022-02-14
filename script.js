@@ -16,6 +16,16 @@ const getGender = () => {
     "Intersex",
   ];
 
+const getWeapon = () => {
+  let gender = [
+    "Male",
+    "Female",
+    "Agender",
+    "Bigender",
+    "Gender Fluid",
+    "Intersex",
+  ];
+
   return gender[Math.floor(Math.random() * gender.length)];
 };
 
